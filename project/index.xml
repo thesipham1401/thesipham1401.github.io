@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Hello Friends</title>
+    <link>localhost/project/</link>
+    <description>Recent content in Projects on Hello Friends</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 09 May 2020 22:33:53 +0700</lastBuildDate>
+    
+	<atom:link href="localhost/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quadrature Phase Shift Keying </title>
+      <link>localhost/project/qpsk/</link>
+      <pubDate>Sat, 09 May 2020 22:33:53 +0700</pubDate>
+      
+      <guid>localhost/project/qpsk/</guid>
+      <description>Xin chào các bạn, học kì vừa rồi mình có học môn Digital Signal Processing Labs của Prof.Dr Lê Tiến Thường. Một này cũng hơi khó bởi vì có rất ít tài liệu và tự lực cánh sinh là chủ yếu, môn này làm quen với mạch TMS320C5515 eZDSP USB Stick Development Tool. Làm quen ở đây là làm như project nhỏ như đây chữ lên màn hình OLED, led blind, FFT,&amp;hellip; Và bài tập lớn là xuất tín hiệu QPSK từ con C5515 ra Code Composer Studio.</description>
+    </item>
+    
+  </channel>
+</rss>
