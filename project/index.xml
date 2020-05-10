@@ -6,7 +6,7 @@
     <description>Recent content in Projects on Hello Friends</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <copyright>&lt;a href=&#34;https://github.com/thesipham1401&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kiên Phạm&lt;/a&gt;</copyright>
     <lastBuildDate>Sat, 09 May 2020 22:33:53 +0700</lastBuildDate>
     
 	<atom:link href="http://thesipham1401.github.io/project/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <pubDate>Sat, 09 May 2020 22:33:53 +0700</pubDate>
       
       <guid>http://thesipham1401.github.io/project/qpsk/</guid>
-      <description>Xin chào các bạn, học kì vừa rồi mình có học môn Digital Signal Processing Labs của Prof.Dr Lê Tiến Thường. Một này cũng hơi khó bởi vì có rất ít tài liệu và tự lực cánh sinh là chủ yếu, môn này làm quen với mạch TMS320C5515 eZDSP USB Stick Development Tool. Làm quen ở đây là làm như project nhỏ như đây chữ lên màn hình OLED, led blind, FFT,&amp;hellip; Và bài tập lớn là xuất tín hiệu QPSK từ con C5515 ra Code Composer Studio.</description>
+      <description>Xin chào các bạn, học kì vừa rồi mình có học môn Digital Signal Processing Labs của Prof.Dr Lê Tiến Thường. Môn này cũng hơi khó bởi vì có rất ít tài liệu và tự lực cánh sinh là chủ yếu, môn này làm quen với mạch TMS320C5515 eZDSP USB Stick Development Tool. Làm quen ở đây là làm như project nhỏ như đây chữ lên màn hình OLED, led blind, FFT,&amp;hellip; Và bài tập lớn có nhiều chủ đề, và nhóm mình gồm 2 người bốc trúng chủ đề khó nhất (Prof nói vậy), là xuất tín hiệu QPSK từ con C5515 ra Code Composer Studio.</description>
     </item>
     
   </channel>
