@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stories on Hello Friends</title>
+    <link>http://thesipham1401.github.io/story/</link>
+    <description>Recent content in Stories on Hello Friends</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 09 May 2020 22:29:40 +0700</lastBuildDate>
+    
+	<atom:link href="http://thesipham1401.github.io/story/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First story</title>
+      <link>http://thesipham1401.github.io/story/mylife-1/</link>
+      <pubDate>Sat, 09 May 2020 22:29:40 +0700</pubDate>
+      
+      <guid>http://thesipham1401.github.io/story/mylife-1/</guid>
+      <description>Xin chào các bạn, hôm nay mình tập viết blog để lưu lại những kiến thức cũng như chia sẽ những khoảng khắc của mình. Đây là blog đâu tiên của mình và mình vẫn còn đang học thêm về static site. Chủ yếu blog của mình viết về xoay quanh mình, nên hiện tại mình đang làm quen với IoT và cố gắng ra trường sớm nhất :D</description>
+    </item>
+    
+  </channel>
+</rss>

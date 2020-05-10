@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hello Friends</title>
-    <link>localhost/</link>
+    <link>http://thesipham1401.github.io/</link>
     <description>Recent content on Hello Friends</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Sat, 09 May 2020 22:33:53 +0700</lastBuildDate>
     
-	<atom:link href="localhost/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://thesipham1401.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Quadrature Phase Shift Keying </title>
-      <link>localhost/project/qpsk/</link>
+      <link>http://thesipham1401.github.io/project/qpsk/</link>
       <pubDate>Sat, 09 May 2020 22:33:53 +0700</pubDate>
       
-      <guid>localhost/project/qpsk/</guid>
+      <guid>http://thesipham1401.github.io/project/qpsk/</guid>
       <description>Xin chào các bạn, học kì vừa rồi mình có học môn Digital Signal Processing Labs của Prof.Dr Lê Tiến Thường. Một này cũng hơi khó bởi vì có rất ít tài liệu và tự lực cánh sinh là chủ yếu, môn này làm quen với mạch TMS320C5515 eZDSP USB Stick Development Tool. Làm quen ở đây là làm như project nhỏ như đây chữ lên màn hình OLED, led blind, FFT,&amp;hellip; Và bài tập lớn là xuất tín hiệu QPSK từ con C5515 ra Code Composer Studio.</description>
     </item>
     
     <item>
       <title>First story</title>
-      <link>localhost/life/mylife-1/</link>
+      <link>http://thesipham1401.github.io/story/mylife-1/</link>
       <pubDate>Sat, 09 May 2020 22:29:40 +0700</pubDate>
       
-      <guid>localhost/life/mylife-1/</guid>
+      <guid>http://thesipham1401.github.io/story/mylife-1/</guid>
       <description>Xin chào các bạn, hôm nay mình tập viết blog để lưu lại những kiến thức cũng như chia sẽ những khoảng khắc của mình. Đây là blog đâu tiên của mình và mình vẫn còn đang học thêm về static site. Chủ yếu blog của mình viết về xoay quanh mình, nên hiện tại mình đang làm quen với IoT và cố gắng ra trường sớm nhất :D</description>
     </item>
     
     <item>
       <title>Happy Birthday to my girlfriend</title>
-      <link>localhost/posts/hpbd/</link>
+      <link>http://thesipham1401.github.io/posts/hpbd/</link>
       <pubDate>Fri, 08 May 2020 21:53:57 +0000</pubDate>
       
-      <guid>localhost/posts/hpbd/</guid>
+      <guid>http://thesipham1401.github.io/posts/hpbd/</guid>
       <description>Hihi. Hope you like my present, which was the thing I hear from you :D. It plus a bonus of 3000 loves. We have a great time together. When I met you, I learned numerous things, especially love, charity and mature. Wishing you dream to guide your path. We was head over heels. and now, I&amp;rsquo;d like have a couple offspring like you said xD. I love 3000 times.
 I feel quite sad &amp;lsquo;cause it isn&amp;rsquo;t perfect gift :(</description>
     </item>
