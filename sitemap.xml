@@ -8,7 +8,17 @@
   </url>
   
   <url>
+    <loc>http://thesipham1401.github.io/tags/quancom2000saigon/</loc>
+    <lastmod>2020-05-10T21:34:27+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://thesipham1401.github.io/story/</loc>
+    <lastmod>2020-05-10T21:34:27+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://thesipham1401.github.io/tags/</loc>
     <lastmod>2020-05-10T21:34:27+07:00</lastmod>
   </url>
   
@@ -33,12 +43,12 @@
   </url>
   
   <url>
-    <loc>http://thesipham1401.github.io/posts/hpbd/</loc>
+    <loc>http://thesipham1401.github.io/blog/</loc>
     <lastmod>2020-05-08T21:53:57+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://thesipham1401.github.io/posts/</loc>
+    <loc>http://thesipham1401.github.io/blog/hpbd/</loc>
     <lastmod>2020-05-08T21:53:57+00:00</lastmod>
   </url>
   
@@ -48,10 +58,6 @@
   
   <url>
     <loc>http://thesipham1401.github.io/series/</loc>
-  </url>
-  
-  <url>
-    <loc>http://thesipham1401.github.io/tags/</loc>
   </url>
   
 </urlset>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Stories on I&#39;m Thesi</title>
-    <link>http://thesipham1401.github.io/story/</link>
-    <description>Recent content in Stories on I&#39;m Thesi</description>
+    <title>quancom2000saigon on I&#39;m Thesi</title>
+    <link>http://thesipham1401.github.io/tags/quancom2000saigon/</link>
+    <description>Recent content in quancom2000saigon on I&#39;m Thesi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://github.com/thesipham1401&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;thesipham1401&lt;/a&gt; - &lt;a href=&#34;https://www.facebook.com/qkiena14&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quốc Kiên&lt;/a&gt;</copyright>
     <lastBuildDate>Sun, 10 May 2020 21:34:27 +0700</lastBuildDate>
     
-	<atom:link href="http://thesipham1401.github.io/story/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://thesipham1401.github.io/tags/quancom2000saigon/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       
       <guid>http://thesipham1401.github.io/story/volunteer-triplong-an/</guid>
       <description>Xin chào các bạn, lại là mình đây. Hôm nay là một ngày cuối tuần, hẵn ai cũng có dự định đi đâu thoải mái đầu óc hay là ở nhà chill out đúng không. Hôm nay là ngày cuối cùng của kì nghỉ tết dài nhất lịch sử nên mình quyết định đi tham gia một chương trình của Quán Cơm 2000, có tên là Trao Yêu Thương Về Miền Tây cùng với 2 homies và eny mình.</description>
-    </item>
-    
-    <item>
-      <title>First story</title>
-      <link>http://thesipham1401.github.io/story/mylife-1/</link>
-      <pubDate>Sat, 09 May 2020 22:29:40 +0700</pubDate>
-      
-      <guid>http://thesipham1401.github.io/story/mylife-1/</guid>
-      <description>Xin chào các bạn, hôm nay mình tập viết blog để lưu lại những kiến thức cũng như chia sẻ những khoảng khắc của mình. Đây là blog đâu tiên của mình và mình vẫn còn đang học thêm về static site. Chủ yếu blog của mình viết về xoay quanh mình, nên hiện tại mình đang làm quen với IoT và cố gắng ra trường sớm nhất :D</description>
     </item>
     
   </channel>
