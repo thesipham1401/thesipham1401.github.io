@@ -5,7 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="Kien Pham ">
-<meta name="description" content="Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.
+<meta name="description" content="Lưu ý bài hướng dẫn chỉ dành cho Tiến Phúc đọc mới hiểu.
+Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.
 thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
 thesi@ubuntu:~$ sudo update-alternatives --config java Sau đó tải Contiki-OS về.
 thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng ta thử mở giả lập Cooja nhé, nếu lần đầu mở thì bạn phải setup MSPSim cho Cooja" />
@@ -36,13 +37,14 @@ thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng
 
 
 <meta itemprop="name" content="Contiki OS">
-<meta itemprop="description" content="Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.
+<meta itemprop="description" content="Lưu ý bài hướng dẫn chỉ dành cho Tiến Phúc đọc mới hiểu.
+Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.
 thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
 thesi@ubuntu:~$ sudo update-alternatives --config java Sau đó tải Contiki-OS về.
 thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng ta thử mở giả lập Cooja nhé, nếu lần đầu mở thì bạn phải setup MSPSim cho Cooja">
 <meta itemprop="datePublished" content="2020-05-26T12:44:06&#43;07:00" />
 <meta itemprop="dateModified" content="2020-05-26T12:44:06&#43;07:00" />
-<meta itemprop="wordCount" content="409">
+<meta itemprop="wordCount" content="422">
 <meta itemprop="image" content="http://thesipham1401.github.io"/>
 
 
@@ -52,7 +54,8 @@ thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng
 <meta name="twitter:image" content="http://thesipham1401.github.io"/>
 
 <meta name="twitter:title" content="Contiki OS"/>
-<meta name="twitter:description" content="Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.
+<meta name="twitter:description" content="Lưu ý bài hướng dẫn chỉ dành cho Tiến Phúc đọc mới hiểu.
+Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.
 thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
 thesi@ubuntu:~$ sudo update-alternatives --config java Sau đó tải Contiki-OS về.
 thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng ta thử mở giả lập Cooja nhé, nếu lần đầu mở thì bạn phải setup MSPSim cho Cooja"/>
@@ -60,7 +63,8 @@ thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng
 
 
     <meta property="og:title" content="Contiki OS" />
-<meta property="og:description" content="Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.
+<meta property="og:description" content="Lưu ý bài hướng dẫn chỉ dành cho Tiến Phúc đọc mới hiểu.
+Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.
 thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
 thesi@ubuntu:~$ sudo update-alternatives --config java Sau đó tải Contiki-OS về.
 thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng ta thử mở giả lập Cooja nhé, nếu lần đầu mở thì bạn phải setup MSPSim cho Cooja" />
@@ -146,7 +150,8 @@ thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng
             
 
             <div class="post-content">
-                <p>Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.</p>
+                <p>Lưu ý bài hướng dẫn chỉ dành cho Tiến Phúc đọc mới hiểu.</p>
+<p>Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.</p>
 <pre><code class="language-console" data-lang="console">thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430
 </code></pre><p>Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau</p>
 <pre><code class="language-console" data-lang="console">thesi@ubuntu:~$ sudo update-alternatives --config java
@@ -160,9 +165,8 @@ thesi@ubuntu:~/contiki/tools/cooja$ sudo ant run
 <p>Đầu tiên chúng ta phải <em><strong>make</strong></em> node <em><strong>border-router.z1</strong></em> thử nha</p>
 <pre><code class="language-console" data-lang="console">thesi@ubuntu:~$ cd contiki/examples/ipv6/rpl-border-router/
 thesi@ubuntu:~/contiki/examples/ipv6/rpl-border-router$ make TARGET=z1
-
 </code></pre><p>Tạo 1 project mới trên cooja, sau đó add mote vào bằng cánh <em><strong>Motes&gt;Add motes&gt;Create new mote type&gt;Z1 mote</strong></em>
-Sau đó chọn <em><strong>Brower&gt;border-router.z1&gt;Add motes</strong></em></p>
+Sau đó chọn <em><strong>Browser&gt;border-router.z1&gt;Add motes</strong></em></p>
 <p>Như vậy là ta đã thêm một mote vào Cooja, tiếp theo chúng ta sử dụng tunslip6 để kết nối mote ra Internet và Làm SERVER.</p>
 <p>Để cái tunslip6, ta làm như sau:</p>
 <pre><code class="language-console" data-lang="console">thesi@ubuntu:~/contiki/examples/ipv6/rpl-border-router$ cd ../../../tools/
