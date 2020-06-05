@@ -7,7 +7,7 @@
 <meta name="author" content="Kien Pham ">
 <meta name="description" content="Lưu ý bài hướng dẫn chỉ dành cho Tiến Phúc đọc mới hiểu.
 Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.
-thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
+thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 libncurses-dev Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
 thesi@ubuntu:~$ sudo update-alternatives --config java Sau đó tải Contiki-OS về.
 thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng ta thử mở giả lập Cooja nhé, nếu lần đầu mở thì bạn phải setup MSPSim cho Cooja" />
 <meta name="keywords" content="" />
@@ -39,12 +39,12 @@ thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng
 <meta itemprop="name" content="Contiki OS">
 <meta itemprop="description" content="Lưu ý bài hướng dẫn chỉ dành cho Tiến Phúc đọc mới hiểu.
 Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.
-thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
+thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 libncurses-dev Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
 thesi@ubuntu:~$ sudo update-alternatives --config java Sau đó tải Contiki-OS về.
 thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng ta thử mở giả lập Cooja nhé, nếu lần đầu mở thì bạn phải setup MSPSim cho Cooja">
 <meta itemprop="datePublished" content="2020-05-26T12:44:06&#43;07:00" />
 <meta itemprop="dateModified" content="2020-05-26T12:44:06&#43;07:00" />
-<meta itemprop="wordCount" content="422">
+<meta itemprop="wordCount" content="649">
 <meta itemprop="image" content="http://thesipham1401.github.io"/>
 
 
@@ -56,7 +56,7 @@ thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng
 <meta name="twitter:title" content="Contiki OS"/>
 <meta name="twitter:description" content="Lưu ý bài hướng dẫn chỉ dành cho Tiến Phúc đọc mới hiểu.
 Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.
-thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
+thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 libncurses-dev Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
 thesi@ubuntu:~$ sudo update-alternatives --config java Sau đó tải Contiki-OS về.
 thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng ta thử mở giả lập Cooja nhé, nếu lần đầu mở thì bạn phải setup MSPSim cho Cooja"/>
 
@@ -65,7 +65,7 @@ thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng
     <meta property="og:title" content="Contiki OS" />
 <meta property="og:description" content="Lưu ý bài hướng dẫn chỉ dành cho Tiến Phúc đọc mới hiểu.
 Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.
-thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
+thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 libncurses-dev Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
 thesi@ubuntu:~$ sudo update-alternatives --config java Sau đó tải Contiki-OS về.
 thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng ta thử mở giả lập Cooja nhé, nếu lần đầu mở thì bạn phải setup MSPSim cho Cooja" />
 <meta property="og:type" content="article" />
@@ -152,7 +152,7 @@ thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng
             <div class="post-content">
                 <p>Lưu ý bài hướng dẫn chỉ dành cho Tiến Phúc đọc mới hiểu.</p>
 <p>Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.</p>
-<pre><code class="language-console" data-lang="console">thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430
+<pre><code class="language-console" data-lang="console">thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 libncurses-dev
 </code></pre><p>Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau</p>
 <pre><code class="language-console" data-lang="console">thesi@ubuntu:~$ sudo update-alternatives --config java
 </code></pre><p>Sau đó tải <a href="https://github.com/contiki-os/contiki">Contiki-OS</a> về.</p>
@@ -260,7 +260,23 @@ include $(CONTIKI)/Makefile.include
 thesi@ubuntu:~/contiki/examples/demo-sensor$ ./demo-sensor.native
 </code></pre><p>Kết quả sẽ hiện ra như này
 <img src="/img/2.jpg" alt="virtual-sensor"></p>
-<p>To be continue&hellip;</p>
+<hr>
+<p>Nhấn lệnh dài quá nên mình nên sử dụng <strong>Alias</strong> ,một tool của Ubuntu giúp mình viết tắt lệnh.</p>
+<p>Đầu tiên chúng ta tạo một bashsr để lưu các câu lệnh</p>
+<pre><code class="language-console" data-lang="console">thesi@ubuntu:~$ touch ~/.bashrc
+</code></pre><p>Sau đó mở file mới tạo lên, ở đây mình sử dụng text editor mặc định của ubuntu là gedit, ngoài ra bạn có thể sử dụng vim, vscode, atom,&hellip;</p>
+<pre><code class="language-console" data-lang="console">thesi@ubuntu:~$ gedit ~/.bashrc
+</code></pre><p>Bây giờ bạn có thể gắn bắt kì lênh bằng thích, ví dụ tạo câu lệch tắt cho tunslip6</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">alias tunslipcooja<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;sudo /home/thesi/contiki/tools/tunslip6 -a 127.0.0.1 aaaa::1/64&#39;</span>
+</code></pre></div><p><em><strong>LƯU Ý</strong></em> bạn nên đổi lại <em><strong>username</strong></em> của Ubuntu của bạn, ở đây <em><strong>username</strong></em> mình là <em><strong>thesi</strong></em>. Và ở đây minh sử dụng đại chỉ rõ ràng của tool <em><strong>/home/thesi/contiki/tools/tunslip6</strong></em>. Nên câu lệnh này có thể bất kì ở đâu trên <strong>Terminal</strong> mà k cần phải <strong>cd</strong> đến đúng folder của nói.</p>
+<p>Như vậy là mình tạo được một lệnh <strong>tunslipcooja</strong> ngắn gọn.</p>
+<p>Nhưng bạn cần <em>lưu lại</em> và đăng kí với hệ điều hành mới sử dụng được nha. Để đăng kí bạn làm như sau:</p>
+<pre><code class="language-console" data-lang="console">thesi@ubuntu:~$ source ~/.bashrc
+</code></pre><p>Bây giờ chạy thử lệnh tắt mình.</p>
+<pre><code class="language-console" data-lang="console">thesi@ubuntu:~$ tunslipcooja
+</code></pre><p>Như vậy là bạn đã biết được cánh tạo một câu <strong>lệnh tắt</strong> bằng <strong>alias</strong> và cánh đăng kí của nó. Để show các câu lệnh tắt của mình đang có, bạn sử dụng lệnh sau:</p>
+<pre><code class="language-console" data-lang="console">thesi@ubuntu:~$ alias
+</code></pre><hr>
 
             </div>
         </article>
