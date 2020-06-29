@@ -7,7 +7,7 @@
 <meta name="author" content="Kien Pham ">
 <meta name="description" content="Lưu ý bài hướng dẫn chỉ dành cho Tiến Phúc đọc mới hiểu.
 Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.
-thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 libncurses-dev Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
+thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 libncurses-dev net-tools Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
 thesi@ubuntu:~$ sudo update-alternatives --config java Sau đó tải Contiki-OS về.
 thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng ta thử mở giả lập Cooja nhé, nếu lần đầu mở thì bạn phải setup MSPSim cho Cooja" />
 <meta name="keywords" content="" />
@@ -39,12 +39,12 @@ thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng
 <meta itemprop="name" content="Contiki OS">
 <meta itemprop="description" content="Lưu ý bài hướng dẫn chỉ dành cho Tiến Phúc đọc mới hiểu.
 Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.
-thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 libncurses-dev Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
+thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 libncurses-dev net-tools Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
 thesi@ubuntu:~$ sudo update-alternatives --config java Sau đó tải Contiki-OS về.
 thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng ta thử mở giả lập Cooja nhé, nếu lần đầu mở thì bạn phải setup MSPSim cho Cooja">
 <meta itemprop="datePublished" content="2020-05-26T12:44:06&#43;07:00" />
 <meta itemprop="dateModified" content="2020-05-26T12:44:06&#43;07:00" />
-<meta itemprop="wordCount" content="649">
+<meta itemprop="wordCount" content="799">
 <meta itemprop="image" content="http://thesipham1401.github.io"/>
 
 
@@ -56,7 +56,7 @@ thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng
 <meta name="twitter:title" content="Contiki OS"/>
 <meta name="twitter:description" content="Lưu ý bài hướng dẫn chỉ dành cho Tiến Phúc đọc mới hiểu.
 Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.
-thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 libncurses-dev Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
+thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 libncurses-dev net-tools Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
 thesi@ubuntu:~$ sudo update-alternatives --config java Sau đó tải Contiki-OS về.
 thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng ta thử mở giả lập Cooja nhé, nếu lần đầu mở thì bạn phải setup MSPSim cho Cooja"/>
 
@@ -65,7 +65,7 @@ thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng
     <meta property="og:title" content="Contiki OS" />
 <meta property="og:description" content="Lưu ý bài hướng dẫn chỉ dành cho Tiến Phúc đọc mới hiểu.
 Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.
-thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 libncurses-dev Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
+thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 libncurses-dev net-tools Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
 thesi@ubuntu:~$ sudo update-alternatives --config java Sau đó tải Contiki-OS về.
 thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng ta thử mở giả lập Cooja nhé, nếu lần đầu mở thì bạn phải setup MSPSim cho Cooja" />
 <meta property="og:type" content="article" />
@@ -152,7 +152,7 @@ thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng
             <div class="post-content">
                 <p>Lưu ý bài hướng dẫn chỉ dành cho Tiến Phúc đọc mới hiểu.</p>
 <p>Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.</p>
-<pre><code class="language-console" data-lang="console">thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 libncurses-dev
+<pre><code class="language-console" data-lang="console">thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 libncurses-dev net-tools
 </code></pre><p>Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau</p>
 <pre><code class="language-console" data-lang="console">thesi@ubuntu:~$ sudo update-alternatives --config java
 </code></pre><p>Sau đó tải <a href="https://github.com/contiki-os/contiki">Contiki-OS</a> về.</p>
@@ -276,7 +276,31 @@ thesi@ubuntu:~/contiki/examples/demo-sensor$ ./demo-sensor.native
 <pre><code class="language-console" data-lang="console">thesi@ubuntu:~$ tunslipcooja
 </code></pre><p>Như vậy là bạn đã biết được cánh tạo một câu <strong>lệnh tắt</strong> bằng <strong>alias</strong> và cánh đăng kí của nó. Để show các câu lệnh tắt của mình đang có, bạn sử dụng lệnh sau:</p>
 <pre><code class="language-console" data-lang="console">thesi@ubuntu:~$ alias
-</code></pre><hr>
+</code></pre><p>Sau đây là vài lênh alias mình hay sử dụng trong Contiki</p>
+<pre><code class="language-console" data-lang="console">alias alert='notify-send --urgency=low -i &quot;$([ $? = 0 ] &amp;&amp; echo terminal || echo error)&quot; &quot;$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&amp;|]\s*alert$//'\'')&quot;'
+alias cdson='cd /home/thesi/contiki/examples/cc2538dk/00_sls'
+alias cooja='cd /home/thesi/contiki/tools/cooja/;sudo ant run'
+alias dump0='sudo /home/thesi/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyUSB0'
+alias dump1='sudo /home/thesi/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyUSB1'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+alias mk1310='make TARGET=srf06-cc26xx BOARD=launchpad/cc1310'
+alias mk13xx='make TARGET=srf06-cc26xx BOARD=srf06/cc13xx'
+alias mk2538='make TARGET=cc2538dk'
+alias mksky='make TARGET=sky'
+alias prog0='sudo python /home/thesi/contiki/tools/cc2538-bsl/cc2538-bsl.py -e -w -v -p /dev/ttyUSB0 -a 0x00200000'
+alias prog1='sudo python /home/thesi/contiki/tools/cc2538-bsl/cc2538-bsl.py -e -w -v -p /dev/ttyUSB1 -a 0x00200000'
+alias pty='sudo putty -serial -sercfg 115200,8,n,1,N'
+alias tunslip0='sudo /home/thesi/contiki/tools/tunslip6 -B 115200 -s /dev/ttyUSB0 aaaa::1/64'
+alias tunslip1='sudo /home/thesi/contiki/tools/tunslip6 -B 115200 -s /dev/ttyUSB1 aaaa::1/64'
+alias tunslipcooja='sudo /home/thesi/contiki/tools/tunslip6 -a 127.0.0.1 aaaa::1/64'
+</code></pre><p><em><strong>Các bạn nhớ thấy tên ubuntu của mình lại nha, của mình ở đây &ldquo;thesi&rdquo;</strong></em></p>
+<hr>
 
             </div>
         </article>

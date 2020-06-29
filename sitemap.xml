@@ -3,12 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://thesipham1401.github.io/project/contiki-os/</loc>
-    <lastmod>2020-05-26T12:44:06+07:00</lastmod>
+    <loc>http://thesipham1401.github.io/</loc>
+    <lastmod>2020-06-29T20:29:21+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://thesipham1401.github.io/</loc>
+    <loc>http://thesipham1401.github.io/posts/i-am-fucked-up/</loc>
+    <lastmod>2020-06-29T20:29:21+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://thesipham1401.github.io/posts/</loc>
+    <lastmod>2020-06-29T20:29:21+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://thesipham1401.github.io/tags/</loc>
+    <lastmod>2020-06-29T20:29:21+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://thesipham1401.github.io/tags/untagged/</loc>
+    <lastmod>2020-06-29T20:29:21+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://thesipham1401.github.io/project/contiki-os/</loc>
     <lastmod>2020-05-26T12:44:06+07:00</lastmod>
   </url>
   
@@ -38,11 +58,6 @@
   </url>
   
   <url>
-    <loc>http://thesipham1401.github.io/tags/</loc>
-    <lastmod>2020-05-10T21:34:27+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://thesipham1401.github.io/story/volunteer-triplong-an/</loc>
     <lastmod>2020-05-10T21:34:27+07:00</lastmod>
   </url>
@@ -59,11 +74,6 @@
   
   <url>
     <loc>http://thesipham1401.github.io/posts/hpbd/</loc>
-    <lastmod>2020-05-08T21:53:57+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://thesipham1401.github.io/posts/</loc>
     <lastmod>2020-05-08T21:53:57+00:00</lastmod>
   </url>
   
