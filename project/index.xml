@@ -20,9 +20,9 @@
       <guid>http://thesipham1401.github.io/project/contiki-os/</guid>
       <description>Lưu ý bài hướng dẫn chỉ dành cho Tiến Phúc đọc mới hiểu.
 Đầu tiên bạn phải cài đặt một số tool cần thiết cho ubuntu.
-thesi@ubuntu:~$ sudo apt-get install git ant openjdk-8-jdk gcc-msp430 libncurses-dev net-tools Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
-thesi@ubuntu:~$ sudo update-alternatives --config java Sau đó tải Contiki-OS về.
-thesi@ubuntu:~$ git clone https://github.com/contiki-os/contiki.git Giờ chúng ta thử mở giả lập Cooja nhé, nếu lần đầu mở thì bạn phải setup MSPSim cho Cooja</description>
+sudo apt-get install git ant openjdk-8-jdk gcc-msp430 libncurses-dev net-tools gcc-arm-none-eabi python3-serial Nếu bạn đã cài Java trước đã thì để configure lại, sử dụng lệnh sau
+sudo update-alternatives --config java Sau đó tải Contiki-OS về.
+git clone https://github.com/contiki-os/contiki.git Giờ chúng ta thử mở giả lập Cooja nhé, nếu lần đầu mở thì bạn phải setup MSPSim cho Cooja</description>
     </item>
     
     <item>
