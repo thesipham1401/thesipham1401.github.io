@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 26 May 2020 12:44:06 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2020 13:19:20 +0700</lastBuildDate>
     
 	<atom:link href="http://thesipham1401.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MQTT for Sensor network</title>
+      <link>http://thesipham1401.github.io/project/mqtt-sn/</link>
+      <pubDate>Sun, 02 Aug 2020 13:19:20 +0700</pubDate>
+      
+      <guid>http://thesipham1401.github.io/project/mqtt-sn/</guid>
+      <description>Bây giờ chúng ta thử mô phỏng Cooja truyền tin từ 1 node lên broker. Đầu tiên bản hãy tải code mqtt-sn về. Code đây mình chỉ chỉnh sửa lại file maincore.c cho phù hợp với nhu cầu nhé. Dầu tiên bản tải code mqtt-sn. lưu ý tải về bỏ trong thư mục của contiki, bởi vì code này sử dụng thư viện của contiki để make
+git clone https://github.com/thesipham1401/mqtt-sn-contiki_example.git Bây giờ mình thử chỉnh sửa code để truyên vitural node mà ở bài trước mình đã hướng dẫn tạo cho các bạn.</description>
+    </item>
     
     <item>
       <title>Contiki OS</title>
