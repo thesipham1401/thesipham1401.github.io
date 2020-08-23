@@ -7,10 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 02 Aug 2020 13:19:20 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2020 21:41:48 +0700</lastBuildDate>
     
 	<atom:link href="http://thesipham1401.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Internet [Backend Eps 1]</title>
+      <link>http://thesipham1401.github.io/project/internet/</link>
+      <pubDate>Sun, 16 Aug 2020 21:41:48 +0700</pubDate>
+      
+      <guid>http://thesipham1401.github.io/project/internet/</guid>
+      <description>To understand the Internet concepts, I should answer 6 questions to dip into the backend works.
+ How does the Internet work? What is the HTTP? Browsers and how they work? DNS and how it works? What is Domain Name? What is hosting?   How does the Internet work?   The Internet works through a packet routing network in accordance with the Internet Protocol (IP), the Transport Control Protocol (TCP) and other protocols.</description>
+    </item>
+    
+    <item>
+      <title>Checkmk, Best-in-class infrastruture &amp; application monitoring</title>
+      <link>http://thesipham1401.github.io/project/checkmk/</link>
+      <pubDate>Wed, 05 Aug 2020 19:06:14 +0700</pubDate>
+      
+      <guid>http://thesipham1401.github.io/project/checkmk/</guid>
+      <description>So sánh 4 phiên bản của Checkmk
+Tải checkmk theo OS của bạn Checkmk download. Bạn có thể tham khảo các phiên bản ở trên trước khi tải nhé.\
+ Checkmk có thể chạy trên các OS:
+ Linux Docker VMware ESXi / VirturalBox   Như mình sử dụng Ubuntu 64bits, nên mình sẽ install như sau:
+  Đầu tiên phải tải checkmk trên website về, thường là đuôi .</description>
+    </item>
     
     <item>
       <title>MQTT for Sensor network</title>

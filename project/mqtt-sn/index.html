@@ -266,7 +266,7 @@ sudo ./broker_mqtts config.mqtt
 </code></pre><p><em><strong>config.mqtt</strong></em></p>
 <pre><code>trace_output protocol
 listener 1883 INADDR_ANY
-listerner 1884 INADDR_ANY mqtt_s
+listener 1884 INADDR_ANY mqtt_s
 ipv6 true
 </code></pre><p>Nếu báo lỗi socket or cannot bind port 1883, thì có thể có mosquitto broker đang chạy. Bạn chỉ cần kiểm tra và kill nó đi bằng cánh</p>
 <pre><code class="language-console" data-lang="console">ps aux | grep broker
